@@ -12,16 +12,13 @@ This repository contains a DevOps project designed to containerize and deploy a 
 └── README.md             # Project documentation
 
 
-🚀 Step-by-Step Implementation Guide
+## 🚀 Step-by-Step Implementation Guide
 Step 1: Containerizing the Go Application
 To ensure our Go application runs consistently across different environments, we will containerize it using Docker. Because Go compiles into a single, self-contained binary, we can use a multi-stage Docker build. This keeps our final production image incredibly lightweight and secure by excluding build tools.
 
 Implementation Tasks:
 Create a file named Dockerfile in the root directory of this repository (outside the source-code folder).
 
-Add the following multi-stage configuration to the Dockerfile:
-
-CMD ["./main"]
 How to Verify Step 1:
 Run the following commands in your terminal to build and test your Docker container locally:
 
