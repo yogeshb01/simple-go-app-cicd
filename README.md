@@ -4,11 +4,13 @@ This project contains steps to implement CI/CD pipeline for a simple go lang app
 Go Application Deployment Pipeline
 This repository contains a DevOps project designed to containerize and deploy a simple Go (Golang) application. The project is structured to walk you through the implementation step-by-step, from containerization to full deployment.
 
-📂 Project Structure
-Plaintext
+## 📂 Project Structure
+
+```text
 ├── source-code/          # Contains the Go application source code
-├── Dockerfile            # Docker configuration ( Step 1)
+├── Dockerfile            # Docker configuration (Created in Step 1)
 └── README.md             # Project documentation
+
 
 🚀 Step-by-Step Implementation Guide
 Step 1: Containerizing the Go Application
