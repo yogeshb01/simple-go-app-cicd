@@ -10,7 +10,7 @@ This repository contains a DevOps project designed to containerize and deploy a 
 ├── source-code/          # Contains the Go application source code
 ├── Dockerfile            # Docker configuration (Created in Step 1)
 └── README.md             # Project documentation
-
+'''
 
 ## 🚀 Step-by-Step Implementation Guide
 Step 1: Containerizing the Go Application
