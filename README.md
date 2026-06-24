@@ -28,3 +28,17 @@ docker build -t go-app-devops:v1 .
 
 # Run the container
 docker run -p 8080:8080 go-app-devops:v1
+
+# Verify the applcation 
+Go to : http://localhost:8080/courses
+
+Step 2: Start an EKS Cluster on AWS using Terraform
+
+You need terraform installed & AWS CLi configured for this on your local/server to perform this step 
+
+Set the cluster name & other fields in provider.tf in accordance to you, then go to terraform folder & run these commands in you console
+
+# Creating EKS cluster
+
+terraform apply --auto-approve
+
