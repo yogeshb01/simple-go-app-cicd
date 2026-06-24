@@ -3,10 +3,9 @@ kind: Service
 metadata:
   name: simple-go-app-service
 spec:
+  selector:
+    app: simple-go-app
   ports:
     - port: 80
-      targetPort: 80
-      protocol: TCP
-  type: NodePort
-  selector:
-    app.kubernetes.io/name: simple-go-app
+      targetPort: 8080
+  type: ClusterIP
