@@ -7,7 +7,6 @@ module "vpc" {
   azs             = local.azs
   public_subnets  = local.public_subnets
   private_subnets = local.private_subnets
-  intra_subnets   = local.intra_subnets
 
   enable_nat_gateway = true
 
